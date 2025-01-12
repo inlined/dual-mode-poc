@@ -1,0 +1,13 @@
+{
+  "name": "dual-mode-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "pnpm build:public",
+    "build:public": "cd public && pnpm i && pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

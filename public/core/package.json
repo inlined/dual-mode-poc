@@ -1,0 +1,15 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "check": "tsc",
+    "compile": "tsup-node",
+    "build:clean": "rimraf ./lib",
+    "build": "npm-run-all build:clean check compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
