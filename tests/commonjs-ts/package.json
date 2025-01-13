@@ -1,0 +1,20 @@
+{
+  "name": "commonjs-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "api": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

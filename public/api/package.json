@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js",
+  "type": "commonjs",
   "scripts": {
     "check": "tsc",
     "compile": "tsup-node",
@@ -12,6 +12,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/index.d.mts",
+        "default": "./lib/index.mjs"
+      },
+      "require": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      }
+    }
+  },
   "dependencies": {
     "core": "workspace:*"
   },

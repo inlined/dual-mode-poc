@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/data.ts"],"sourcesContent":["export const hello = \"hello\";"],"mappings":"AAAO,MAAM,QAAQ;","names":[]}
