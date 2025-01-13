@@ -2,10 +2,9 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "es2015",
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "moduleResolution": "node",
     "strict": true,
+    "noEmit": true
   },
   "compileOnSave": true
 }

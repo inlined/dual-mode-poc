@@ -1,2 +1,2 @@
 export { hello } from "core";
-export { world } from "./data.ts"
+export { world } from "./data"

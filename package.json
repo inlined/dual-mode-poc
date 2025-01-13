@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:all": "pnpm build:public",
-    "build:public": "cd public && pnpm i && pnpm build"
+    "build:public": "cd public && pnpm install && pnpm build"
   },
   "keywords": [],
   "author": "",

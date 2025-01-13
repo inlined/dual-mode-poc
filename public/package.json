@@ -1,15 +1,19 @@
 {
-  "name": "public",
+  "name": "dual-mode-poc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm i && pnpm build"
+    "build": "pnpm -r run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tsup": "^8.3.5"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.7.3"
   }
 }
